@@ -1,0 +1,28 @@
+h1 {
+	color: black;
+	font-size: 38px;
+	text-align: center;
+	font-style: italic;
+}
+
+p {
+	color: black;
+	font-size: 24px;+
+	text-align: center;
+}
+
+body {
+	background-color: #DBD5D5;
+}
+
+.text-zentriert {
+	padding-top: 700px;
+	width: 200px;
+	margin: 0 auto;
+}
+
+.text-zentriert button {
+	width: 200px;
+	height: 30px;
+	margin: 5px;
+}
