@@ -1,2 +1,2 @@
-# SE-Jump-N-Run-App-Android
+# SE-Jump-N-Run-Web
 Jump'N'Run Spiel auf Webseite
