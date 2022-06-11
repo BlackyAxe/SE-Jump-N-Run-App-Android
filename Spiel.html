@@ -5,35 +5,13 @@
     <meta charset="UTF-8">
     <title>Jump'N'Run</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="//cdn.jsdelivr.net/npm/phaser@3.11.0/dist/phaser.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/phaser@3.11.0/dist/phaser.js"></script>
 </head>
 
 <body>
 
     <input type="button" class="button" value="Menu" />
-    <script>
-        var config = {
-            type: Phaser.AUTO,
-            width: 1920,
-            height: 1080,
-            scene: {
-                preload: preload,
-                create: create,
-                update: update
-            }
-        };
-
-        var game = new Phaser.Game(config);
-
-        function preload() {
-        }
-
-        function create() {
-        }
-
-        function update() {
-        }
-    </script>
+    <script type="text/javascript" src="./js/game.js"></script>
 
 </body>
 
