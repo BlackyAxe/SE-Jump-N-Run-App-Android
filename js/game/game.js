@@ -26,7 +26,7 @@ function preload() {
 function create() {
     player = this.physics.add.sprite(960, 540, 'character');
 
-    player.setBounce(0.1);
+    player.setBounce(0.5);
     player.setCollideWorldBounds(true);
 }
 

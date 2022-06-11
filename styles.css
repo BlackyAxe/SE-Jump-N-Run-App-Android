@@ -1,17 +1,28 @@
-html, body {
-    margin: 0;
-    padding: 0;
+h1 {
+	color: black;
+	font-size: 38px;
+	text-align: center;
+	font-style: italic;
 }
 
-.button {
-    border: solid;
-    border-color: grey;
-    color: grey;
-    padding: 10px 30px;
-    text-align: center;
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    display: inline-block;
-    font-size: 20px;
+p {
+	color: black;
+	font-size: 24px;
+	text-align: center;
+}
+
+body {
+	background-color: #DBD5D5;
+}
+
+.text-zentriert {
+	padding-top: 700px;
+	width: 200px;
+	margin: 0 auto;
+}
+
+.text-zentriert button {
+	width: 200px;
+	height: 30px;
+	margin: 5px;
 }
