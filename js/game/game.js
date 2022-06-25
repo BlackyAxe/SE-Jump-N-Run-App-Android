@@ -16,8 +16,10 @@ var config = {
         update: update
     }
 };
+
 var game = new Phaser.Game(config);
 var player;
+var cursors;
 
 function preload() {
     this.load.spritesheet('character', 'img/character.png', { frameWidth: 64, frameHeight: 90 });
@@ -28,7 +30,22 @@ function create() {
 
     player.setBounce(0.5);
     player.setCollideWorldBounds(true);
+
+    cursors = this.input.keyboard.createCursorKeys();
 }
 
 function update() {
+    if (cursors.left.isDown) {
+        player.setVelocityX(-480);
+    }
+    else if (cursors.right.isDown) {
+        player.setVelocityX(480);
+    }
+    else {
+        player.setVelocityX(0);
+    }
+
+    if (cursors.up.isDown && player.body.touching.down) {
+        player.setVelocityY(-990);
+    }
 }
