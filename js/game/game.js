@@ -22,10 +22,12 @@ var player;
 var cursors;
 
 function preload() {
+    this.load.image('background', 'img/background.jpg');
     this.load.spritesheet('character', 'img/character.png', { frameWidth: 64, frameHeight: 90 });
 }
 
 function create() {
+    this.add.image(0,0, 'background').setOrigin(0,0);
     player = this.physics.add.sprite(960, 540, 'character');
 
     player.setBounce(0.5);
